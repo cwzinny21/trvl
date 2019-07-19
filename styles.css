@@ -1,0 +1,484 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navText {
+  font-family: 'Raleway' , sans-serif;
+  color: black;
+}
+
+body {
+  background-color: #B7F4F5;
+}
+.quizTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 75px;
+  border-style: dotted;
+  padding: 10px;
+  margin: 10px;
+  color: #9B8CFF;
+}
+
+.personalityQuiz {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  color: #4E3EB3;
+}
+
+.result {
+  display: none;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #4E3EB3;
+}
+
+.one {
+  margin: 10px;
+}
+
+.quizQuestion {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.two {
+  margin: 10px;
+}
+
+.three {
+  margin: 10px;
+}
+
+.four {
+  margin: 10px;
+}
+
+.five {
+  margin: 10px;
+}
+
+/* #submit {
+  padding: 20px;
+  margin: 20px;
+  background-color: pink;
+  font-family: arial;
+  font-size: 15px;
+  border-radius: 10px;
+  color: magenta;
+} */
+
+
+
+/* INFORMATION CSS */
+/* .images {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  /* padding: 12px;
+} */
+
+.flip-card {
+  /* width: %; */
+  margin: 1%;
+  height: 300px;
+  width: 30%;
+  position: relative;
+  perspective: 100vw;
+  float: left;
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .flip-card {
+    width: 31%;
+    margin: 1.16%;
+    /*width + margin-left + margin-right = 33.33%*/
+  }
+}
+
+@media (min-width: 992px) {
+  .flip-card {
+    width: 30%;
+    margin: 1%;
+    /*width + margin-left + margin-right = 25%*/
+  }
+}
+
+.flip-card .front,
+.flip-card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  transition: 1s;
+  backface-visibility: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.flip-card:hover .front {
+  transform: rotateY(180deg) scale(0.5);
+}
+
+.flip-card .back {
+  background: white;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transform: rotateY(180deg) scale(0.5);
+}
+
+.flip-card:hover .back {
+  transform: rotateY(360deg) scale(1);
+}
+
+.row {
+  width: auto;
+  /* padding: 10px; */
+  /* margin: 1000px; */
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+
+.align {
+  display: flex;
+  align-items: center;
+
+}
+
+.summary {
+  width: 100px;
+  height: 60px;
+  border-radius: 80%;
+  object-fit: cover;
+}
+
+.backtext {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+.informationHeader {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+
+
+/* img {
+  width: 405px;
+  height: 270px;
+  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+/* section {
+  display: flex;
+  align-items: center;
+} */
+
+/* @media screen and (max-width: 600px) {
+  body {
+    .all-images {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}*/
+
+/* CSS FOR HOMEPAGE    <-------------------------------------- */
+.h1 {
+  font-size: 85px;
+  display: flex;
+  justify-content: center;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -25px;
+  background-color: lightblue;
+}
+
+li a {
+  display: block;
+  width: 300px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/*HOMEPAGE*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+a:hover {
+  color: white;
+}
+
+img {
+
+}
+
+.submit {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: arial;
+  font-size: 15px;
+}
+
+.crop {
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.crop img {
+    display: flex;
+    justify-content: flex-start;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: 50px 50 10 10px;*/
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+/* .text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
+
+.homepage {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: extra-bold;
+}
+
+/* @media (min-width: 600px) and (max-width: 992px) {
+  .nav-bar {
+    width: 31%;
+    margin: 1.16%;
+    /*width + margin-left + margin-right = 33.33%
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-bar {
+    width: 30%;
+    margin: 1%;
+    /*width + margin-left + margin-right = 25%
+  }
+}*/
+
+/*ABOUT PAGE*/
+
+.teamPhoto{
+  display: flex;
+  display: inline-block;
+  justify-content: space-around;
+}
+
+.ourPhotos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.team {
+  font-family: arial;
+  color: #4E3EB3;
+  font-size: 20px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+  color: #4E3EB3;
+  font-size: 15px;
+}

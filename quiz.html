@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title> TAKE OUR QUIZ </title>
+     <link href = "styles.css" rel = "stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   </head>
+   <body>
+
+
+
+     <center>
+     <ul class = "nav-bar">
+       <li class="navText"><a href= "index.html"> H O M E </a></li>
+       <li class="navText"><a href= "info.html"> I N F O </a></li>
+       <li class="navText"><a href= "quiz.html"> Q U I Z </a></li>
+       <li class="navText"><a href= "about.html"> A B O U T </a></li>
+     </ul> </center>
+
+     <h1 class = "quizTitle"> What country should you visit based on your personality? </h1>
+
+     <form class = "personalityQuiz">
+
+       <h3 class="quizQuestion"> 1) Where would you rather go? </h3>
+
+       <article>
+         <input class = "one" type = "radio" name = "place" value = "greeceItaly"> the beach <br>
+         <input class = "one"  type = "radio" name = "place" value = "japanSingapore"> a large city <br>
+         <input class = "one" type = "radio" name = "place" value = "peruArgentina"> the mountains <br>
+         </article>
+
+       <h3 class="quizQuestion"> 2) You like it best when your weekends: </h3>
+
+       <article>
+         <input class = "two" type = "radio" name = "wknd" value = "greeceItaly"> are completely free so I can do whatever I feel like <br>
+         <input class = "two" type = "radio" name = "wknd" value = "japanSingapore"> are packed with fun plans! <br>
+         <input class = "two" type = "radio" name = "wknd" value = "peruArgentina"> have only a couple of flexible events planned <br>
+       </article>
+
+       <h3 class="quizQuestion"> 3) What is your favorite animal? </h3>
+
+       <article>
+         <input class = "three" type = "radio" name = "animal" value = "greeceItaly"> dolphin <br>
+         <input class = "three" type = "radio" name = "animal" value = "japanSingapore"> bird <br>
+         <input class = "three" type = "radio" name = "animal" value = "peruArgentina"> jaguar <br>
+       </article>
+
+       <h3 class="quizQuestion"> 4) Pick a hobby: </h3>
+
+       <article>
+         <input class = "four" type = "radio" name = "hobby" value = "greeceItaly"> reading or listening to music <br>
+         <input class = "four" type = "radio" name = "hobby" value = "japanSingapore"> shopping!!! <br>
+         <input class = "four" type = "radio" name = "hobby" value = "peruArgentina"> going for a run <br>
+       </article>
+
+       <h3 class="quizQuestion"> 5) Pick a trait that you relate to the most: </h3>
+
+       <article>
+         <input class = "five" type = "radio" name = "trait" value = "greeceItaly"> carefree <br>
+         <input class = "five" type = "radio" name = "trait" value = "japanSingapore"> friendly <br>
+         <input class = "five" type = "radio" name = "trait" value = "peruArgentina"> adventurous <br>
+       </article>
+
+       <br>
+
+       <input class = "submit" type = "submit" value = "Submit">
+
+     </form>
+
+     <div class = "result" id = "greeceItaly">
+       <h2> You got Greece or Italy! You are relaxed and laid back, and you love going to the beach and soaking up the sun. </h2>
+       <h4> Visit our information page for more details :) </h4>
+     </div>
+     <div class = "result" id = "japanSingapore">
+       <h2> You got Japan or Singapore! You love exploring large cities and all of the people there. </h2>
+       <h4> Visit our information page for more details :) </h4>
+     </div>
+     <div class = "result" id = "peruArgentina">
+       <h2> You got Peru or Argentina! You are spontaneous and always down for an adventure! </h2>
+       <h4> Visit our information page for more details :) </h4>
+     </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="main2.js"></script>
+   </body>
+ </html>
